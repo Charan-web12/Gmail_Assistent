@@ -1,0 +1,16 @@
+# Local environment files
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# Dependencies and generated output
+node_modules/
+frontend/.next/
+coverage/
+
+# Local logs
+*.log
+npm-debug.log*
